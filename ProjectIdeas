@@ -1,11 +1,23 @@
 Here are some of our project ideas:
 
-1) How grammar/spelling affects quality of LLM response
+1) How grammar/spelling affects quality of LLM response.
 
 We will create prompts for the LLM in which we know what the expected outcome is ahead of time. 
 We fill feed the LLM modified version of the prompts -- some with heavy grammatical errors, some with major spelling errors, some with both -- and compare the quality and accuracy of the responses.
 With those, we can analyze how LLM's react to imperfect queries, and can question the reliability of LLM's. In possibly less wealthy areas, where grammar and well-flowing statements may not be as strong, can LLM's be trusted to give reliable information as they become used more and more?
 
-2) Multi-step tasks: Single vs. Multiple prompts
+2) Multi-step tasks: Single vs. Multiple prompts.
 
 We will create prompts involving problems that require multiple steps to solve. Then, we will format the prompts in two different ways: one by prompting the LLM one step at a time, and one by asking all of the steps at once in one prompt. With this we can compare the quality of the responses. Knowing whether there is any difference in the usefulness of the response can help steer user behavior to make better use of the LLM.
+
+3) How Prompt Politeness and Tone Affect LLM Responses.
+
+We will test whether being polite ("please", "thank you") versus aggressive or rude affects the quality, length, and helpfulness of LLM responses.
+The idea is to create identical prompts with a polite tone, neutral tone, and rude/hostile tone.
+Then we will compare response accuracy, detail, and tone mirroring.
+
+4) LLM Reliability Under Contradictory Information.
+
+We will provide prompts that will contain two contradictory facts or include a false assumption ("Since the Earth is flat..."). 
+Then we will analyze whether the model challenges the assumption, passively accepts it, or hallucinates explanations.
+
