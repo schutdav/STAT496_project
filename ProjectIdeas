@@ -1,0 +1,7 @@
+Here are some of our project ideas:
+
+1) How grammar/spelling affects quality of LLM response
+
+We will create prompts for the LLM in which we know what the expected outcome is ahead of time. 
+We fill feed the LLM modified version of the prompts -- some with heavy grammatical errors, some with major spelling errors, some with both -- and compare the quality and accuracy of the responses.
+With those, we can analyze how LLM's react to imperfect queries, and can question the reliability of LLM's. In possibly less wealthy areas, where grammar and well-flowing statements may not be as strong, can LLM's be trusted to give reliable information as they become used more and more?
