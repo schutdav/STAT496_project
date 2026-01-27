@@ -8,7 +8,9 @@ With those, we can analyze how LLM's react to imperfect queries, and can questio
 
 2) Multi-step tasks: Single vs. Multiple prompts.
 
-We will create prompts involving problems that require multiple steps to solve. Then, we will format the prompts in two different ways: one by prompting the LLM one step at a time, and one by asking all of the steps at once in one prompt. With this we can compare the quality of the responses. Knowing whether there is any difference in the usefulness of the response can help steer user behavior to make better use of the LLM.
+We will create prompts involving problems that require multiple steps to solve.
+Then, we will format the prompts in two different ways: one by prompting the LLM one step at a time, and one by asking all of the steps at once in one prompt.
+With this we can compare the quality of the responses. Knowing whether there is any difference in the usefulness of the response can help steer user behavior to make better use of the LLM.
 
 3) How Prompt Politeness and Tone Affect LLM Responses.
 
