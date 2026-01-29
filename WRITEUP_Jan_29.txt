@@ -1,0 +1,7 @@
+We took a set of index-type questions and used them for three types of prompts: one with the question as it was initially written, one with a polite statement appended to the front of the question, and one with a rude statement appended to the end of the question.
+
+The LLM gave responses that were mostly correct, and it did change its tone in the response depending on how the question was posed to it.
+
+Improvements: We need a way to store LLM responses. I was thinking writing responses to a txt, with comma separations, so that later they can be converted to a csv. Additionally, we need a way to judge whether the responses are correct. I tried to compare predetermined answers with the responses given (with substrings), but those results were unreliable. We also want to try prompting with different types of questions, such as those where the LLM has to solve a problem given a scenario (not just asking it to recall information).
+
+We need to implement some form of tone analysis to determine whether the response matches the tone of the prompt.
