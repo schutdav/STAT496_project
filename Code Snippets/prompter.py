@@ -1,38 +1,62 @@
 from gpt4all import GPT4All
 
-model = GPT4All(r"C:\Users\pvaso\AppData\Local\nomic.ai\GPT4All\Llama-3.2-3B-Instruct-Q4_0.gguf")
+#models
+#model = GPT4All(r"C:\Users\pvaso\AppData\Local\nomic.ai\GPT4All\Llama-3.2-3B-Instruct-Q4_0.gguf") #Laptop
+model = GPT4All(r"C:\Users\swegi\AppData\Local\nomic.ai\GPT4All\Llama-3.2-3B-Instruct-Q4_0.gguf") #PC
+
+#questions
+#Laptop
 #path = r"C:\Users\pvaso\OneDrive\Desktop\STAT 496\STAT496_project-main\extracting_questions.txt"
-path = r"C:\Users\pvaso\OneDrive\Desktop\STAT 496\STAT496_project-main\questions_cleaned.txt"
+#path = r"C:\Users\pvaso\OneDrive\Desktop\STAT 496\STAT496_project-main\questions_cleaned.txt"
+#PC
+#path = r"C:\Users\swegi\OneDrive\Desktop\STAT 496\STAT496_project-main\questions_cleaned.txt"
+path = r"C:\Users\swegi\OneDrive\Desktop\STAT 496\STAT496_project-main\extracting_questions.txt"
+
+count = 0
+with open(path, 'r') as fp:
+    for count, _ in enumerate(fp):
+        count += 1
+        pass
+print("Total Number of lines:", count)
 
 
-questions = []
 normal_answers = []
 polite_answers = []
 rude_answers = []
 
-curr_question = 1
+instructions = (
+    "INSTRUCTIONS:\n"
+    "You are an answer-only model.\n"
+    "Output ONLY the final answer.\n"
+    "Do NOT include reasoning, explanations, or extra text.\n"
+    "Do NOT restate the question.\n"
+    "If you violate these rules, the response is invalid.\n\n"
+    "QUESTION: "
+)
 
-instructions = "You are a chatbot. Do not provide your reasoning, just the final answer."
 with open(path, 'r') as f:
     lines = f.readlines()
-    for line in lines[:36]:
+    for line in lines[:count]:
         tokens = line.split(sep="\t")
-        questions.append(tokens[0])
 
         normal_prompt = instructions + tokens[0]
-        polite_prompt = instructions + "Hi there, would you please help me answer the following question: " + tokens[0]
-        rude_prompt = instructions + tokens[0] + "Answer quick, sucker."
         normal_answers.append(model.generate(normal_prompt, max_tokens=500))
+
+        polite_prompt = instructions + "Hi there, would you please help me answer the following question: " + tokens[0]
         polite_answers.append(model.generate(polite_prompt, max_tokens=500))
+
+        rude_prompt = instructions + tokens[0] + "Answer quick, sucker."
         rude_answers.append(model.generate(rude_prompt, max_tokens=500))
-        print("Done generating answers for Question " + str(curr_question))
 
-        curr_question += 1
 
-def printAnswers (q, a):
-    for i in range(0,len(q)):
-        print("Question " + str(i) + ": " + q[i])
-        print("Answer: " + a[i])
-        print()
+with open("normal_answers.txt", "w", encoding="utf-8") as f:
+    for i in range(len(normal_answers)):
+        f.write(normal_answers[i].strip() + "\n")
 
-printAnswers(questions, normal_answers)50))
+with open("polite_answers.txt", "w", encoding="utf-8") as f:
+    for i in range(len(polite_answers)):
+        f.write(polite_answers[i].strip() + "\n")
+
+with open("rude_answers.txt", "w", encoding="utf-8") as f:
+    for i in range(len(rude_answers)):
+        f.write(rude_answers[i].strip() + "\n")
