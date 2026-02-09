@@ -1,12 +1,14 @@
 from gpt4all import GPT4All
 
 #models
-model = GPT4All(r"C:\Users\pvaso\AppData\Local\nomic.ai\GPT4All\Llama-3.2-3B-Instruct-Q4_0.gguf") #Laptop
+model = GPT4All(r"C:\Users\the40\AppData\Local\nomic.ai\GPT4All\Llama-3.2-3B-Instruct-Q4_0.gguf") #David
+#model = GPT4All(r"C:\Users\pvaso\AppData\Local\nomic.ai\GPT4All\Llama-3.2-3B-Instruct-Q4_0.gguf") #Laptop
 #model = GPT4All(r"C:\Users\swegi\AppData\Local\nomic.ai\GPT4All\Llama-3.2-3B-Instruct-Q4_0.gguf") #PC
 
 #questions
 #Laptop
-path = r"C:\Users\pvaso\OneDrive\Desktop\STAT 496\STAT496_project-main\extracting_questions.txt"
+#path = r"C:\Users\pvaso\OneDrive\Desktop\STAT 496\STAT496_project-main\extracting_questions.txt"
+path = r"C:\Users\the40\Documents\GitHub\STAT496_project\extracting_questions.txt" #David
 #path = r"C:\Users\pvaso\OneDrive\Desktop\STAT 496\STAT496_project-main\questions_cleaned.txt"
 #PC
 #path = r"C:\Users\swegi\OneDrive\Desktop\STAT 496\STAT496_project-main\questions_cleaned.txt"
