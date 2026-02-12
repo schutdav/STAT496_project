@@ -1,0 +1,20 @@
+A coffee shop opens at 7:00 AM on weekdays and opens 90 minutes later on weekends; if it opens on Saturday, what time does it open? 8:30 AM
+A factory produces 120 units per hour during the day shift and produces 40 fewer units per hour at night; how many units per hour are produced at night? 80
+A bus route takes 50 minutes to complete during off-peak hours and takes 20 minutes longer during rush hour; how long does it take during rush hour? 70 minutes
+A worker earns $20 per hour and receives a $3 per hour increase for overtime; what is their overtime hourly wage? $23
+A library fine is $0.50 per day and increases by $0.25 per day after the first week; what is the daily fine after the first week? $0.75
+A runner trains for 30 minutes per session and increases training time by 10 minutes each week; how long is a session after one increase? 40 minutes
+A parking garage charges $5 for the first hour and $2 for each additional hour; how much does it charge for two hours? $7
+A subscription costs $40 per month and increases by $5 after the first year; what is the new monthly cost? $45
+A delivery takes 3 days normally but is delayed by 2 days due to weather; how long does the delivery take? 5 days
+A class meets for 75 minutes and extends sessions by 15 minutes during exam weeks; how long is a session during exam week? 90 minutes
+A ticket costs $60 and receives a $12 discount; what is the final price? $48
+A printer produces 25 pages per minute and slows down by 5 pages per minute in eco mode; how many pages per minute in eco mode? 20
+A store opens at 9:00 AM and delays opening by 45 minutes due to maintenance; what time does it open? 9:45 AM
+A data plan includes 10 GB per month and adds 2 GB as a bonus; how much data is included total? 12 GB
+A cyclist rides 18 miles per hour and slows by 3 miles per hour uphill; what is their uphill speed? 15 mph
+A movie runtime is 110 minutes and includes 15 minutes of previews; what is the total time in the theater? 125 minutes
+A warehouse ships 500 packages per day and increases output by 120 packages; how many packages per day after the increase? 620
+A train departs at 2:20 PM and is delayed by 35 minutes; what is the new departure time? 2:55 PM
+A laptop battery lasts 8 hours and loses 90 minutes of capacity over time; how long does it last now? 6.5 hours
+A worker completes a task in 4 hours but takes 30 minutes longer due to interruptions; how long does the task take? 4.5 hours
