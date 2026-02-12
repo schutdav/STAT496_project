@@ -1,0 +1,20 @@
+The Northside Community Pool operates on a seasonal schedule where it opens at 7:00 AM from Monday through Friday, opens two hours later on Saturdays, and opens one hour later than Saturday on Sundays; if someone plans to swim on a Sunday morning right when the pool opens, what time should they arrive? 10:00 AM
+A university library opens at 8:00 AM on weekdays, opens at 10:00 AM on Saturdays, and remains closed until noon on Sundays; if today is Sunday and a student wants to enter as soon as possible, what time can they do so? 12:00 PM
+The Valley Farmers Market runs from Tuesday to Friday starting at 9:00 AM, starts one hour earlier on Saturdays, and starts two hours later on Mondays than on weekdays; what time does the market open on Monday? 11:00 AM
+A downtown parking garage opens at 6:00 AM on weekdays, opens 90 minutes later on Saturdays, and opens at the same time as Saturdays on Sundays; when does the garage open on Sunday? 7:30 AM
+The Lakeside Jogging Trail officially opens at sunrise on weekdays, opens one hour after sunrise on Saturdays, and opens two hours after sunrise on Sundays; if sunrise is at 6:00 AM, what time does the trail open on Sunday? 8:00 AM
+A bookstore opens at 9:00 AM Monday through Thursday, opens one hour earlier on Fridays, and opens two hours later on Sundays than on Fridays; what time does it open on Sunday? 10:00 AM
+The City Hall service desk opens at 8:30 AM on weekdays and opens 30 minutes later on weekends; if a resident visits on Saturday, what time does the desk open? 9:00 AM
+A coworking space opens at 7:00 AM on weekdays, shifts its opening time back by one hour each day over the weekend, and then resets on Monday; what time does it open on Sunday? 9:00 AM
+A museum opens at 10:00 AM during the winter season but opens 90 minutes earlier during summer weekdays while keeping the same hours on weekends; if it is a summer Saturday, when does the museum open? 10:00 AM
+The Eastside Clinic schedules its first appointment at 8:00 AM on Mondays, 30 minutes later each weekday, and does not operate on weekends; what time is the first appointment on Friday? 10:00 AM
+A ferry begins service at 6:00 AM on weekdays and delays its start time by two hours on weekends; what time does the ferry begin service on Saturday? 8:00 AM
+A yoga studio opens at 6:30 AM on weekdays, opens one hour later on Saturdays, and opens one hour earlier on Sundays than on Saturdays; what time does it open on Sunday? 6:30 AM
+The Riverside Park gates open at 5:00 AM during summer weekdays, open at 7:00 AM on weekends, and open one hour later during winter weekends; what time do the gates open on a winter Sunday? 8:00 AM
+A campus café opens at 7:00 AM during the semester, opens at 9:00 AM during breaks, and closes entirely on Sundays during breaks; if it is a Sunday during break, when does it open? It does not open
+A courthouse opens at 8:00 AM on Mondays, opens 15 minutes earlier each weekday, and closes on weekends; what time does it open on Friday? 7:00 AM
+A movie theater shows its first matinee at noon on weekdays, one hour earlier on Saturdays, and one hour later on Sundays than on Saturdays; when is the first show on Sunday? 12:00 PM
+A daycare center opens at 7:30 AM on weekdays, opens at 9:00 AM on Saturdays, and is closed on Sundays; when does it open on Sunday? It does not open
+The Harbor Ferry Terminal opens at 5:00 AM on weekdays and opens at the same time on Saturdays but one hour later on Sundays; what time does it open on Sunday? 6:00 AM
+A university gym opens at 6:00 AM during the semester, opens at 8:00 AM during holidays, and keeps holiday hours on weekends; if it is a holiday Saturday, when does it open? 8:00 AM
+The City Zoo opens at 9:00 AM on weekdays, opens one hour later on Saturdays, and two hours later on Sundays; what time does it open on Sunday? 11:00 AM

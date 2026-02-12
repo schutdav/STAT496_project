@@ -1,0 +1,20 @@
+A conference allows early entry only if attendees have VIP badges, where regular attendees may enter at 9:00 AM and VIPs may enter two hours earlier; if someone has a VIP badge, what time can they enter? 7:00 AM
+A delivery service offers same-day delivery only if orders are placed before 1:00 PM on weekdays or before 2:00 PM on Saturdays, and not at all on Sundays; if a customer places an order at 1:30 PM on Saturday, will it be same-day? Yes
+A parking lot charges no fee if a car leaves within 30 minutes, charges a flat rate if it stays longer, and doubles the rate after 6:00 PM; if a car leaves after 20 minutes, what fee is charged? No fee
+A university allows students to register early only if they have completed at least 60 credits and have no outstanding holds; if a student has 70 credits but has a hold, can they register early? No
+A store applies a discount only if a customer spends more than $100 and is a loyalty member; if a loyalty member spends $90, do they receive the discount? No
+A gym allows access to the pool only if members have premium status or visit during staffed hours; if a standard member arrives during staffed hours, can they use the pool? Yes
+An airline allows free checked bags only if passengers fly business class or have elite status; if a passenger has elite status but is flying economy, do they get free checked bags? Yes
+A software license is valid only if it is activated within 30 days of purchase and registered to a single device; if it is activated after 45 days, is it valid? No
+A course allows students to skip the final exam only if they have an A average and perfect attendance; if a student has an A average but missed one class, can they skip the exam? No
+A store offers curbside pickup only on weekdays unless the order exceeds $200; if a $250 order is placed on Sunday, is curbside pickup available? Yes
+A hotel provides free breakfast only if guests book directly or are loyalty members; if a guest books through a third party and is not a member, do they receive breakfast? No
+A train ticket is refundable only if canceled within 24 hours and the train has not departed; if it is canceled within 24 hours but after departure, is it refundable? No
+A parking permit is required only if a vehicle is parked longer than two hours or overnight; if a car parks for one hour, is a permit required? No
+A museum allows photography only if flash is disabled and the exhibit permits it; if flash is disabled but the exhibit does not permit photography, is it allowed? No
+A company allows remote work only on Fridays or if employees receive manager approval; if an employee has approval on Tuesday, can they work remotely? Yes
+A store honors price matching only if the competitor is local and the product is identical; if the product differs slightly, is price matching allowed? No
+A scholarship renews only if students maintain a 3.5 GPA and complete at least 30 credits per year; if a student completes 32 credits but has a 3.4 GPA, is it renewed? No
+A library allows book renewals only if there are no holds and the renewal limit has not been reached; if there are no holds but the limit is reached, can the book be renewed? No
+A ride-sharing app applies surge pricing only if demand exceeds supply and the time is within peak hours; if demand is high but it is not peak hours, is surge pricing applied? No
+A course drops the lowest quiz score only if more than five quizzes are given; if exactly five quizzes are given, is the lowest dropped? No
