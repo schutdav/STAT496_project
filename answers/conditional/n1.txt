@@ -1,0 +1,20 @@
+7:00 AM
+No
+0.5
+0 (or False)
+Yes.
+No
+No.
+0% (or any other numerical value that indicates "not at all")
+0% (or any other answer that indicates "no")
+No
+Yes.
+0%
+Yes.
+No
+No
+No
+No
+0%
+No
+5

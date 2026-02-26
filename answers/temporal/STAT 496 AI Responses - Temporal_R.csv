@@ -1,0 +1,104 @@
+Prompt,Answer,Rude,Rude Correct,Rude Accurate,RA Correct,Rude Fast,RF Correct
+"The Northside Community Pool operates on a seasonal schedule where it opens at 7:00 AM from Monday through Friday, opens two hours later on Saturdays, and opens one hour later than Saturday on Sundays; if someone plans to swim on a Sunday morning right when the pool opens, what time should they arrive?",10:00 AM,6:59 AM.,0,6:00 AM,0,6:00 AM,0
+"A university library opens at 8:00 AM on weekdays, opens at 10:00 AM on Saturdays, and remains closed until noon on Sundays; if today is Sunday and a student wants to enter as soon as possible, what time can they do so?",12:00 PM,12:00 PM,1,12:00 PM,1,12:00 PM,1
+"The Valley Farmers Market runs from Tuesday to Friday starting at 9:00 AM, starts one hour earlier on Saturdays, and starts two hours later on Mondays than on weekdays; what time does the market open on Monday?",11:00 AM,11:00 AM,1,11:00 AM,1,8:00 AM,0
+"A downtown parking garage opens at 6:00 AM on weekdays, opens 90 minutes later on Saturdays, and opens at the same time as Saturdays on Sundays; when does the garage open on Sunday?",7:30 AM,8:30 AM,0,8:30 AM,0,8:30 AM,0
+"The Lakeside Jogging Trail officially opens at sunrise on weekdays, opens one hour after sunrise on Saturdays, and opens two hours after sunrise on Sundays; if sunrise is at 6:00 AM, what time does the trail open on Sunday?",8:00 AM,8:00 AM.,1,8:00 AM,1,8:00 AM,1
+"A bookstore opens at 9:00 AM Monday through Thursday, opens one hour earlier on Fridays, and opens two hours later on Sundays than on Fridays; what time does it open on Sunday?",10:00 AM,8:00 AM,0,8:00 AM,0,8:00 AM,0
+"The City Hall service desk opens at 8:30 AM on weekdays and opens 30 minutes later on weekends; if a resident visits on Saturday, what time does the desk open?",9:00 AM,9:00 AM,1,9:00 AM,1,9:00 AM,1
+"A coworking space opens at 7:00 AM on weekdays, shifts its opening time back by one hour each day over the weekend, and then resets on Monday; what time does it open on Sunday?",9:00 AM,8:00 AM,0,8:00 AM,0,8:00 AM,0
+"A museum opens at 10:00 AM during the winter season but opens 90 minutes earlier during summer weekdays while keeping the same hours on weekends; if it is a summer Saturday, when does the museum open?",10:00 AM,8:30 AM.,0,8:30 AM,0,8:30 AM,0
+"The Eastside Clinic schedules its first appointment at 8:00 AM on Mondays, 30 minutes later each weekday, and does not operate on weekends; what time is the first appointment on Friday?",10:00 AM,8:30 AM.,0,9:30 AM,0,8:30 AM,0
+A ferry begins service at 6:00 AM on weekdays and delays its start time by two hours on weekends; what time does the ferry begin service on Saturday?,8:00 AM,8.0 AM,1,8:00 AM,1,8:00 AM,1
+"A yoga studio opens at 6:30 AM on weekdays, opens one hour later on Saturdays, and opens one hour earlier on Sundays than on Saturdays; what time does it open on Sunday?",6:30 AM,5:30 AM.,0,5:30 AM,0,5:30 AM,0
+"The Riverside Park gates open at 5:00 AM during summer weekdays, open at 7:00 AM on weekends, and open one hour later during winter weekends; what time do the gates open on a winter Sunday?",8:00 AM,8:00 AM,1,8:00 AM,1,8:00 AM,1
+"A campus café opens at 7:00 AM during the semester, opens at 9:00 AM during breaks, and closes entirely on Sundays during breaks; if it is a Sunday during break, when does it open?",It does not open,9:00 AM.,0,9:00 AM,0,9:00 AM,0
+"A courthouse opens at 8:00 AM on Mondays, opens 15 minutes earlier each weekday, and closes on weekends; what time does it open on Friday?",7:00 AM,7:45 AM.,0,7:45 AM,0,7:45 AM,0
+"A movie theater shows its first matinee at noon on weekdays, one hour earlier on Saturdays, and one hour later on Sundays than on Saturdays; when is the first show on Sunday?",12:00 PM,11am.,0,11:00 AM,0,11:00 AM,0
+"A daycare center opens at 7:30 AM on weekdays, opens at 9:00 AM on Saturdays, and is closed on Sundays; when does it open on Sunday?",It does not open,Closed.,1,8:30 AM,0,8:00 AM,0
+The Harbor Ferry Terminal opens at 5:00 AM on weekdays and opens at the same time on Saturdays but one hour later on Sundays; what time does it open on Sunday?,6:00 AM,6:00 AM,1,6:00 AM,1,6:00 AM,1
+"A university gym opens at 6:00 AM during the semester, opens at 8:00 AM during holidays, and keeps holiday hours on weekends; if it is a holiday Saturday, when does it open?",8:00 AM,10:00 AM.,0,10:00 AM,0,10:00 AM,0
+"The City Zoo opens at 9:00 AM on weekdays, opens one hour later on Saturdays, and two hours later on Sundays; what time does it open on Sunday?",11:00 AM,11:00 AM,1,11:00 AM,1,11:00 AM,1
+"The Midtown Recreation Center opens at 6:00 AM from Monday through Friday, opens two hours later on Saturdays, and opens one hour later than Saturday on Sundays; if someone plans to visit on Sunday right when it opens, what time should they arrive?",9:00 AM,5:00 AM,0,5:59 AM,0,5:00 AM,0
+"A regional train departs at 5:30 AM on weekdays, departs 90 minutes later on Saturdays, and departs at the same time as Saturday on Sundays; what time is the first departure on Sunday?",7:00 AM,8:00 AM,0,8:30 AM,0,8:00 AM,0
+"The City Aquarium opens at 9:00 AM Tuesday through Friday, opens one hour earlier on Mondays, and opens two hours later on Sundays than on Mondays; what time does it open on Sunday?",12:00 PM,10:00 AM,0,8:00 AM,0,8:00 AM,0
+"A neighborhood bakery opens at 7:00 AM on weekdays, opens at 8:30 AM on Saturdays, and opens 30 minutes earlier on Sundays than on Saturdays; what time does it open on Sunday?",8:00 AM,8:00.,1,8:00 AM,1,8:00 AM,1
+"The public skating rink opens at 10:00 AM during winter weekdays, opens one hour later on Saturdays, and opens one hour earlier on Sundays than on Saturdays; what time does it open on Sunday?",10:00 AM,9:00 AM.,0,9:00 AM,0,9:00 AM,0
+"A bank branch opens at 8:00 AM Monday through Thursday, opens 30 minutes earlier on Friday, and opens two hours later on Saturday than on Friday; what time does it open on Saturday?",9:30 AM,10:00 AM,0,10:00 AM,0,10:00 AM,0
+"A science center opens at 9:00 AM on weekdays, opens at 11:00 AM on Saturdays, and opens one hour earlier on Sundays than on Saturdays; what time does it open on Sunday?",10:00 AM,10:00 AM,1,10:00 AM,1,10:00 AM,1
+"The Harbor Marina office opens at 7:00 AM on weekdays, opens at 9:00 AM on Saturdays, and remains closed on Sundays; what time does it open on Sunday?",It does not open,0 hours (or 12:00 AM),1,"0 hours (or simply ""Closed"")",1,0 hours (or midnight),1
+"A university help desk opens at 8:00 AM during the semester, opens one hour later during finals week, and keeps finals week hours on weekends; if it is a finals week Saturday, what time does it open?",9:00 AM,9:00 AM,1,9:00 AM,1,9:00 AM,1
+"A farmers cooperative opens at 6:30 AM Monday through Friday, opens two hours later on Saturday, and opens one hour earlier on Sunday than on Saturday; what time does it open on Sunday?",7:30 AM,8:00 AM,0,8:00 AM,0,8:00 AM,0
+"The City Observatory opens at 1:00 PM on weekdays, opens three hours earlier on Saturdays, and opens one hour later on Sundays than on Saturdays; what time does it open on Sunday?",11:00 AM,10:00 AM,0,11:00 AM,1,10:00 AM,0
+"A courthouse records office opens at 8:30 AM on weekdays, opens at 10:00 AM on Saturdays, and closes entirely on Sundays; when does it open on Sunday?",It does not open,Closed.,1,Never (it's closed),1,10:00 AM,0
+"A children’s museum opens at 9:00 AM on Mondays, opens 30 minutes later each weekday, and does not operate on weekends; what time does it open on Friday?",11:00 AM,4:30 PM,0,4:30 PM,0,4:30 PM,0
+A commuter bus begins service at 6:00 AM on weekdays and begins service two hours later on weekends; what time does service begin on Saturday?,8:00 AM,8:00 AM,1,8:00 AM,1,8:00 AM,1
+"A campus bookstore opens at 8:00 AM during fall semester, opens at 9:00 AM during spring semester, and opens one hour later on Saturdays than during the current semester; if it is spring semester Saturday, what time does it open?",10:00 AM,10:00 AM.,1,10:00 AM,1,10:00 AM,1
+"The City Pool opens at 7:00 AM in summer, opens at 9:00 AM in winter, and keeps winter hours on weekends year-round; what time does it open on a summer Sunday?",9:00 AM,8:30.,0,8:30 AM,0,8:30 AM,0
+"A downtown gym opens at 5:00 AM on weekdays, opens at 7:00 AM on Saturdays, and opens one hour earlier on Sundays than on Saturdays; what time does it open on Sunday?",6:00 AM,6:00 AM,1,6:00 AM,1,6:00 AM,1
+"A local theater sells tickets starting at 10:00 AM on weekdays, starts sales at noon on Saturdays, and starts sales two hours earlier on Sundays than on Saturdays; what time do ticket sales begin on Sunday?",10:00 AM,8:00 AM.,0,8:00 AM,0,8:00 AM,0
+"The Botanical Garden opens at 9:00 AM Tuesday through Friday, opens at 8:00 AM on Saturdays, and opens one hour later on Sundays than on Saturdays; what time does it open on Sunday?",9:00 AM,9:00 AM.,1,9:00 AM,1,9:00 AM,1
+"A ferry terminal opens at 5:00 AM on weekdays, opens 60 minutes later on Saturdays, and opens 60 minutes later than Saturday on Sundays; what time does it open on Sunday?",7:00 AM,6:00 AM,0,6:00 AM,0,6:00 AM,0
+"A student center opens at 8:00 AM Monday through Thursday, opens at 7:00 AM on Friday, and opens three hours later on Saturday than on Friday; what time does it open on Saturday?",10:00 AM,10:00 AM,1,10:00 AM,1,10:00 AM,1
+"A public garden opens at 9:00 AM on weekdays, opens one hour later on Saturdays, and opens two hours earlier on Sundays than on Saturdays; what time does it open on Sunday?",8:00 AM,7:00 AM.,0,7:00 AM,0,7:00 AM,0
+"A tech support line opens at 7:00 AM on weekdays, opens at 9:00 AM on Saturdays, and keeps Saturday hours on Sundays; what time does it open on Sunday?",9:00 AM,9.00 AM,1,9:00 AM,1,9:00 AM,1
+"A language lab opens at 8:00 AM during regular weeks, opens at 10:00 AM during holidays, and remains closed on Sundays during holidays; if it is a holiday Sunday, when does it open?",It does not open,9:30 AM.,0,9:30 AM,0,9:30 AM,0
+"A community kitchen opens at 6:00 AM Monday through Friday, opens 90 minutes later on Saturday, and opens 30 minutes earlier on Sunday than on Saturday; what time does it open on Sunday?",7:00 AM,8:30 AM,0,7:30 AM,0,7:30 AM,0
+"A regional airport lounge opens at 5:30 AM on weekdays, opens at 7:30 AM on Saturdays, and opens one hour earlier on Sundays than on Saturdays; what time does it open on Sunday?",6:30 AM,6:30 AM.,1,6:30 AM,1,6:30 AM,1
+"A tutoring center opens at 3:00 PM on weekdays, opens at noon on Saturdays, and opens two hours later on Sundays than on Saturdays; what time does it open on Sunday?",2:00 PM,2:00 PM,1,2:00 PM,1,2:00 PM,1
+"A civic auditorium opens its box office at 10:00 AM on weekdays, opens at 11:00 AM on Saturdays, and opens one hour earlier on Sundays than on Saturdays; what time does it open on Sunday?",10:00 AM,10:00 AM.,1,10:00 AM,1,10:00 AM,1
+"A recycling center opens at 7:00 AM on weekdays, opens at 8:00 AM on Saturdays, and closes entirely on Sundays; what time does it open on Sunday?",It does not open,8:00.,0,8:00 AM,0,8:00 AM,0
+"A public archive opens at 9:00 AM Monday through Friday, opens at 10:30 AM on Saturdays, and opens 30 minutes earlier on Sundays than on Saturdays; what time does it open on Sunday?",10:00 AM,9:30 AM.,0,9:30 AM,0,10:00 AM,1
+A museum opened at 10:00 AM and remained open for 1 hours and 42 minutes. What time did it close?,11:42 AM,11:42 AM,1,11:42 AM,1,11:42 AM,1
+A office opened at 6:00 AM and remained open for 0 hours and 52 minutes. What time did it close?,6:52 AM,7:02 AM,0,7:12 AM,0,7:02 AM,0
+A cafe opened at 5:15 AM and remained open for 3 hours and 8 minutes. What time did it close?,8:23 AM,6:23 AM,0,6:23 AM,0,6:23 AM,0
+"A community cafe opens at 6:45 AM on weekdays, opens 60 minutes later on Saturdays, and opens 30 minutes later than Saturday on Sundays; what time does it open on Sunday?",8:15 AM,7:15 AM.,0,7:15 AM,0,7:15 AM,0
+A museum opened at 5:15 AM and remained open for 1 hours and 40 minutes. What time did it close?,6:55 AM,7:55 AM,0,7:55 AM,0,7:55 AM,0
+"A community pool opens at 7:00 AM on weekdays, opens 30 minutes later on Saturdays, and opens 30 minutes later than Saturday on Sundays; what time does it open on Sunday? ",8:00 AM,7:30 AM,0,8:00 AM,1,8:00 AM,1
+"A morning event was originally scheduled for 7:30 AM, but was delayed by 20 minutes. What is the new start time?  ",7:50 AM,8:00 AM,0,8:10 AM,0,8:10 AM,0
+"A community cafe opens at 8:00 AM on weekdays, opens 90 minutes later on Saturdays, and opens 60 minutes later than Saturday on Sundays; what time does it open on Sunday? ",10:30 AM,9:30 AM,0,9:30 AM,0,9:30 AM,0
+"A community gym opens at 9:15 AM on weekdays, opens 30 minutes later on Saturdays, and opens 0 minutes later than Saturday on Sundays; what time does it open on Sunday? ",9:45 AM,9:45 AM.,1,9:45 AM,1,9:45 AM,1
+"A community museum opens at 5:15 AM on weekdays, opens 30 minutes later on Saturdays, and opens 30 minutes later than Saturday on Sundays; what time does it open on Sunday? ",6:15 AM,9:45 AM,0,5:45 AM,0,5:45 AM,0
+A garage opened at 10:30 AM and remained open for 3 hours and 36 minutes. What time did it close?,2:06 PM,2:06 PM,1,12:06 PM,0,12:06 PM,0
+A gym opened at 7:00 AM and remained open for 2 hours and 43 minutes. What time did it close? ,9:43 AM,9:43 AM,1,9:43 AM,1,9:43 AM,1
+A garage opened at 8:30 AM and remained open for 1 hours and 43 minutes. What time did it close? ,10:13 AM,10:13 AM,1,10:13 AM,1,10:13 AM,1
+A pool opened at 5:30 AM and remained open for 3 hours and 10 minutes. What time did it close?,8:40 AM,8:40 AM,1,8:40 AM,1,8:40 AM,1
+"A community trail opens at 10:30 AM on weekdays, opens 60 minutes later on Saturdays, and opens 60 minutes later than Saturday on Sundays; what time does it open on Sunday?  ",12:30 PM,11:30 AM,0,11:30 AM,0,11:30 AM,0
+A market opened at 10:45 AM and remained open for 3 hours and 55 minutes. What time did it close? ,2:40 PM,2:40 PM,1,2:40 PM,1,2:40 PM,1
+"A community office opens at 9:30 AM on weekdays, opens 120 minutes later on Saturdays, and opens 60 minutes later than Saturday on Sundays; what time does it open on Sunday? ",12:30 PM,11:00 AM,0,11:00 AM,0,11:00 AM,0
+A library opened at 6:15 AM and remained open for 1 hours and 24 minutes. What time did it close?   ,7:39 AM,8:39 AM,0,8:39 AM,0,8:39 AM,0
+"A community pool opens at 10:15 AM on weekdays, opens 120 minutes later on Saturdays, and opens 60 minutes later than Saturday on Sundays; what time does it open on Sunday?",1:15 PM,11:15 AM,0,11:15 AM,0,11:45 AM,0
+"A morning event was originally scheduled for 8:45 AM, but was delayed by 20 minutes. What is the new start time?   ",9:05 AM,9:05 AM,1,9:05 AM,1,9:05 AM,1
+"A community museum opens at 10:30 AM on weekdays, opens 90 minutes later on Saturdays, and opens 0 minutes later than Saturday on Sundays; what time does it open on Sunday?   ",12:00 PM,11:00 AM,0,11:00 AM,0,11:00 AM,0
+"A morning event was originally scheduled for 6:45 AM, but was delayed by 40 minutes. What is the new start time?   ",7:25 AM,7:25 AM,1,7:25 AM,1,7:25 AM,1
+"A morning event was originally scheduled for 9:00 AM, but was delayed by 40 minutes. What is the new start time?  ",9:40 AM,9:40 AM,1,9:40 AM,1,9:40 AM,1
+A center opened at 6:30 AM and remained open for 3 hours and 18 minutes. What time did it close?,9:48 AM,10:48 AM,0,8:48 AM,0,10:48 AM,0
+"A community garage opens at 7:45 AM on weekdays, opens 30 minutes later on Saturdays, and opens 0 minutes later than Saturday on Sundays; what time does it open on Sunday?",8:15 AM,8:15 AM.,1,8:15 AM,1,8:15 AM,1
+A pool opened at 6:00 AM and remained open for 3 hours and 52 minutes. What time did it close?,9:52 AM,8:52 AM,0,8:52 AM,0,8:52 AM,0
+"A morning event was originally scheduled for 8:00 AM, but was delayed by 40 minutes. What is the new start time?   ",8:40 AM,8:40 AM,1,8:40 AM,1,8:40 AM,1
+"A morning event was originally scheduled for 7:45 AM, but was delayed by 60 minutes. What is the new start time?   ",8:45 AM,8:45 AM,1,9:00 AM,0,9:00 AM,0
+A trail opened at 8:30 AM and remained open for 1 hours and 48 minutes. What time did it close? ,10:18 AM,10:18 AM,1,10:18 AM,1,10:18 AM,1
+"A morning event was originally scheduled for 6:00 AM, but was delayed by 40 minutes. What is the new start time?  ",6:40 AM,6:40 AM,1,6:40 AM,1,6:40 AM,1
+A library opened at 9:15 AM and remained open for 1 hours and 2 minutes. What time did it close?,10:17 AM,10:17 AM,1,10:17 AM,1,10:17 AM,1
+"A community gym opens at 5:30 AM on weekdays, opens 30 minutes later on Saturdays, and opens 60 minutes later than Saturday on Sundays; what time does it open on Sunday?   ",7:00 AM,6:00 AM,0,9:00 AM,0,9:00 AM,0
+"A morning event was originally scheduled for 10:45 AM, but was delayed by 80 minutes. What is the new start time? ",12:05 PM,11:25 AM,0,11:25 AM,0,11:25 AM,0
+A pool opened at 6:45 AM and remained open for 3 hours and 33 minutes. What time did it close?,10:18 AM,8:18 AM,0,8:18 AM,0,8:18 AM,0
+"A morning event was originally scheduled for 8:30 AM, but was delayed by 20 minutes. What is the new start time?    ",8:50 AM,9:00 AM,0,9:00 AM,0,9:00 AM,0
+A garage opened at 10:00 AM and remained open for 1 hours and 48 minutes. What time did it close?   ,11:48 AM,11:48 AM,1,11:48 AM,1,11:48 AM,1
+A office opened at 6:15 AM and remained open for 1 hours and 56 minutes. What time did it close?  ,8:11 AM,8:11 AM,1,8:11 AM,1,8:11 AM,1
+A center opened at 8:15 AM and remained open for 0 hours and 57 minutes. What time did it close?   ,9:12 AM,9:12 AM,1,9:12 AM,1,9:12 AM,1
+"A community market opens at 10:00 AM on weekdays, opens 30 minutes later on Saturdays, and opens 0 minutes later than Saturday on Sundays; what time does it open on Sunday?  ",10:30 AM,10:30 AM.,1,10:30 AM,1,11:00 AM,0
+A library opened at 8:45 AM and remained open for 2 hours and 22 minutes. What time did it close?   ,11:07 AM,11:07 AM,1,11:07 AM,1,11:07 AM,1
+"A community museum opens at 5:45 AM on weekdays, opens 90 minutes later on Saturdays, and opens 30 minutes later than Saturday on Sundays; what time does it open on Sunday? ",7:45 AM,6:15 AM,0,10:15 AM,0,9:15 AM,0
+A museum opened at 10:45 AM and remained open for 0 hours and 59 minutes. What time did it close?   ,11:44 AM,11:44 AM,1,12:04 AM,0,12:04 AM,0
+"A morning event was originally scheduled for 9:00 AM, but was delayed by 80 minutes. What is the new start time?    ",10:20 AM,10:20 AM,1,10:20 AM,1,10:20 AM,1
+A pool opened at 9:15 AM and remained open for 1 hours and 2 minutes. What time did it close?  ,10:17 AM,10:17 AM,1,10:17 AM,1,10:17 AM,1
+"A morning event was originally scheduled for 9:00 AM, but was delayed by 40 minutes. What is the new start time? ",9:40 AM,9:40 AM,1,9:40 AM,1,9:40 AM,1
+"A morning event was originally scheduled for 9:00 AM, but was delayed by 60 minutes. What is the new start time?    ",10:00 AM,10:00 AM,1,10:00 AM,1,10:00 AM,1
+"A community museum opens at 7:15 AM on weekdays, opens 90 minutes later on Saturdays, and opens 0 minutes later than Saturday on Sundays; what time does it open on Sunday?",8:45 AM,8:05 AM,0,9:05 AM,0,9:45 AM,0
+A pool opened at 6:30 AM and remained open for 2 hours and 42 minutes. What time did it close?  ,9:12 AM,9:12 AM,1,9:12 AM,1,9:12 AM,1
+"A morning event was originally scheduled for 9:00 AM, but was delayed by 60 minutes. What is the new start time?    ",10:00 AM,10:00 AM,1,10:00 AM,1,10:00 AM,1
+"A community garage opens at 6:30 AM on weekdays, opens 30 minutes later on Saturdays, and opens 0 minutes later than Saturday on Sundays; what time does it open on Sunday? ",7:00 AM,7:00 AM,1,7:00 AM,1,7:00 AM,1
+,,,,,,,
+Correct,,,52,,50,,47
+Accuracy Rate,,,0.52,,0.5,,0.47

@@ -1,0 +1,54 @@
+Prompt,Answer,Normal,Normal Correct,Polite,Polite Correct,Rude,Rude Correct
+"A conference allows early entry only if attendees have VIP badges, where regular attendees may enter at 9:00 AM and VIPs may enter two hours earlier; if someone has a VIP badge, what time can they enter?",7:00 AM,7:00 AM,1,7:00 AM,1,7:00 AM,1
+"A delivery service offers same-day delivery only if orders are placed before 1:00 PM on weekdays or before 2:00 PM on Saturdays, and not at all on Sundays; if a customer places an order at 1:30 PM on Saturday, will it be same-day?",Yes,No,0,No,0,No.,0
+"A parking lot charges no fee if a car leaves within 30 minutes, charges a flat rate if it stays longer, and doubles the rate after 6:00 PM; if a car leaves after 20 minutes, what fee is charged?",No fee,1.5,0,0.5,0,2 dollars.,0
+"A university allows students to register early only if they have completed at least 60 credits and have no outstanding holds; if a student has 70 credits but has a hold, can they register early?",No,No,1,No.,1,No.,1
+"A store applies a discount only if a customer spends more than $100 and is a loyalty member; if a loyalty member spends $90, do they receive the discount?",No,No,1,No.,1,No.,1
+"A gym allows access to the pool only if members have premium status or visit during staffed hours; if a standard member arrives during staffed hours, can they use the pool?",Yes,No.,0,No.,0,No.,0
+"An airline allows free checked bags only if passengers fly business class or have elite status; if a passenger has elite status but is flying economy, do they get free checked bags?",Yes,No.,0,Yes.,1,Yes.,1
+"A software license is valid only if it is activated within 30 days of purchase and registered to a single device; if it is activated after 45 days, is it valid?",No,No.,1,No.,1,No.,1
+"A course allows students to skip the final exam only if they have an A average and perfect attendance; if a student has an A average but missed one class, can they skip the exam?",No,No.,1,No.,1,No.,1
+"A store offers curbside pickup only on weekdays unless the order exceeds $200; if a $250 order is placed on Sunday, is curbside pickup available?",Yes,No,0,No,0,No.,0
+"A hotel provides free breakfast only if guests book directly or are loyalty members; if a guest books through a third party and is not a member, do they receive breakfast?",No,No.,1,No.,1,No.,1
+"A train ticket is refundable only if canceled within 24 hours and the train has not departed; if it is canceled within 24 hours but after departure, is it refundable?",No,No.,1,No.,1,No.,1
+"A parking permit is required only if a vehicle is parked longer than two hours or overnight; if a car parks for one hour, is a permit required?",No,No,1,No.,1,No.,1
+"A museum allows photography only if flash is disabled and the exhibit permits it; if flash is disabled but the exhibit does not permit photography, is it allowed?",No,No.,1,No.,1,No.,1
+"A company allows remote work only on Fridays or if employees receive manager approval; if an employee has approval on Tuesday, can they work remotely?",Yes,No.,0,No.,0,No.,0
+"A store honors price matching only if the competitor is local and the product is identical; if the product differs slightly, is price matching allowed?",No,No.,1,No.,1,No.,1
+"A scholarship renews only if students maintain a 3.5 GPA and complete at least 30 credits per year; if a student completes 32 credits but has a 3.4 GPA, is it renewed?",No,No,1,No,1,No,1
+"A library allows book renewals only if there are no holds and the renewal limit has not been reached; if there are no holds but the limit is reached, can the book be renewed?",No,No.,1,No.,1,No.,1
+"A ride-sharing app applies surge pricing only if demand exceeds supply and the time is within peak hours; if demand is high but it is not peak hours, is surge pricing applied?",No,No.,1,No.,1,No.,1
+"A course drops the lowest quiz score only if more than five quizzes are given; if exactly five quizzes are given, is the lowest dropped?",No,No.,1,Yes.,0,No.,1
+"A bookstore offers a 15% discount only if a customer purchases at least three items and is a rewards member; if someone buys three items but is not a member, do they receive the discount?",No,No.,1,No.,1,No.,1
+"A gym waives the enrollment fee only if the member signs a 12-month contract or joins during a promotional week; if someone signs a 6-month contract during a non-promotional week, is the fee waived?",No,No,1,No,1,No.,1
+"A streaming service allows offline downloads only if the user has a premium subscription and is using a registered device; if the user has premium but uses an unregistered device, can they download content?",No,No.,1,No.,1,No.,1
+"A university grants honors designation only if a student has at least a 3.7 GPA and completes a thesis project; if a student completes a thesis but has a 3.6 GPA, do they receive honors?",No,No,1,No,1,No,1
+"A car rental company provides unlimited mileage only if the rental is for three or more days or the customer purchases a mileage package; if someone rents for two days without the package, do they get unlimited mileage?",No,No,1,No.,1,No.,1
+"A conference provides lunch only if attendees pre-register or pay for the meal add-on at check-in; if someone neither pre-registers nor pays at check-in, do they receive lunch?",No,No.,1,No.,1,No.,1
+"A scholarship is awarded only if applicants submit all required documents and meet the income threshold; if documents are complete but income exceeds the threshold, is it awarded?",No,No.,1,No.,1,No.,1
+"A parking garage offers validation only if a purchase exceeds $25 and the receipt is presented; if a purchase is $30 but no receipt is shown, is validation granted?",No,No,1,No.,1,No.,1
+"A company allows expense reimbursement only if receipts are submitted within 30 days and expenses are work-related; if receipts are late, is reimbursement approved?",No,No.,1,No.,1,No.,1
+"A ride-sharing driver receives a bonus only if they complete 50 rides in a week and maintain a 4.8 rating; if they complete 55 rides but have a 4.7 rating, do they receive the bonus?",No,No,1,No,1,No,1
+"A hotel upgrades guests only if rooms are available and the guest is a loyalty member; if rooms are available but the guest is not a member, is an upgrade given?",No,No.,1,No.,1,No.,1
+"A college course allows pass/fail grading only if students declare it before the deadline and are not majoring in the subject; if a major declares before the deadline, can they choose pass/fail?",No,No.,1,No.,1,No.,1
+"A delivery company offers refunds only if packages are lost or arrive damaged; if a package arrives late but undamaged, is a refund issued?",No,No.,1,No.,1,No.,1
+"A credit card offers cashback only if purchases are made in specific categories and the account is in good standing; if the account is delinquent, is cashback awarded?",No,No,1,No.,1,No.,1
+"A museum grants free admission only if visitors are under 12 or over 65; if a visitor is 64 years old, do they qualify for free admission?",No,No,1,No,1,No.,1
+"A gym class requires registration only if attendance exceeds 20 participants; if attendance is 18, is registration required?",No,No,1,No.,1,No.,1
+"A software update installs automatically only if auto-update is enabled and sufficient storage is available; if storage is insufficient, does it install automatically?",No,No.,1,No.,1,No.,1
+"A bus pass is transferable only if it is unused and signed by the original purchaser; if it has been used once, can it be transferred?",No,No.,1,No.,1,No.,1
+"A retailer accepts returns only if items are unused and returned within 14 days; if an unused item is returned after 20 days, is it accepted?",No,No.,1,No.,1,No.,1
+"A library issues a replacement card only if identification is presented and the replacement fee is paid; if ID is missing, is a replacement issued?",No,No,1,No.,1,No.,1
+"A company grants overtime pay only if employees work more than 40 hours and receive supervisor approval; if 45 hours are worked without approval, is overtime granted?",No,No,1,No.,1,No.,1
+"A restaurant provides a birthday dessert only if proof of birthdate is shown and a meal is purchased; if proof is not shown, is dessert provided?",No,No.,1,No.,1,No.,1
+"A university allows course overload only if GPA exceeds 3.5 or special permission is granted; if GPA is 3.4 without permission, is overload allowed?",No,No,1,No,1,No,1
+"A sports league allows substitutions only if the referee is notified and play has stopped; if play continues, is substitution allowed?",No,No.,1,No.,1,No.,1
+"A phone warranty is valid only if the device is registered and damage is not due to misuse; if damage is due to misuse, is it covered?",No,No.,1,No.,1,No.,1
+"A transit system offers senior discounts only if riders are 65 or older and show identification; if a rider is 66 but shows no ID, is the discount applied?",No,No.,1,No.,1,No.,1
+"A contest entry is accepted only if submitted before midnight and includes all required fields; if submitted at 12:05 AM, is it accepted?",No,No,1,No,1,No.,1
+"A workspace grants 24-hour access only if members upgrade to the premium tier; if a standard member requests late access, is it granted?",No,No.,1,No.,1,No.,1
+"A tutoring program offers free sessions only if family income qualifies and enrollment forms are complete; if forms are incomplete, are sessions free?",No,No.,1,No.,1,No.,1
+"A library study room can be reserved only if no outstanding fines exist and a valid card is on file; if fines are unpaid, can it be reserved?",No,No.,1,No.,1,No.,1
+,,,,,,,
+Total Right,,,44,,44,,45
+Accuracy ,,,0.88,,0.88,,0.9

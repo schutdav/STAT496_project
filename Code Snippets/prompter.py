@@ -1,18 +1,15 @@
 from gpt4all import GPT4All
 
 #models
-model = GPT4All(r"C:\Users\the40\AppData\Local\nomic.ai\GPT4All\Llama-3.2-3B-Instruct-Q4_0.gguf") #David
 #model = GPT4All(r"C:\Users\pvaso\AppData\Local\nomic.ai\GPT4All\Llama-3.2-3B-Instruct-Q4_0.gguf") #Laptop
-#model = GPT4All(r"C:\Users\swegi\AppData\Local\nomic.ai\GPT4All\Llama-3.2-3B-Instruct-Q4_0.gguf") #PC
+model = GPT4All(r"C:\Users\swegi\AppData\Local\nomic.ai\GPT4All\Llama-3.2-3B-Instruct-Q4_0.gguf") #PC
 
 #questions
 #Laptop
 #path = r"C:\Users\pvaso\OneDrive\Desktop\STAT 496\STAT496_project-main\extracting_questions.txt"
-path = r"C:\Users\the40\Documents\GitHub\STAT496_project\extracting_questions.txt" #David
 #path = r"C:\Users\pvaso\OneDrive\Desktop\STAT 496\STAT496_project-main\questions_cleaned.txt"
 #PC
-#path = r"C:\Users\swegi\OneDrive\Desktop\STAT 496\STAT496_project-main\questions_cleaned.txt"
-#path = r"C:\Users\swegi\OneDrive\Desktop\STAT 496\STAT496_project-main\extracting_questions.txt"
+path = r"C:\Users\swegi\OneDrive\Desktop\STAT 496\STAT496_project-main\questions\arithmetic.txt"
 
 count = 0
 with open(path, 'r') as fp:
@@ -42,18 +39,17 @@ with open(path, 'r') as f:
         tokens = line.split(sep="\t")
 
         normal_prompt = instructions + tokens[0] + "\nANSWER: "
-        #print(normal_prompt)
         normal_answer = model.generate(normal_prompt, max_tokens=500)
-        #print(normal_answer)
-        #print("\n")
         normal_answers.append(normal_answer)
 
+        polite_prompt = instructions + "Hi there, would you please help me answer the following question: " + tokens[0] + "\nANSWER: "
+        polite_answer = model.generate(polite_prompt, max_tokens=500)
+        polite_answers.append(polite_answer)
 
-        polite_prompt = instructions + "Hi there, would you please help me answer the following question: " + tokens[0] + "\n ANSWER: "
-        polite_answers.append(model.generate(polite_prompt, max_tokens=500))
+        rude_prompt = instructions + tokens[0] + "Answer quick, sucker." + "\nANSWER: "
+        rude_answer = model.generate(rude_prompt, max_tokens=500)
+        rude_answers.append(rude_answer)
 
-        rude_prompt = instructions + tokens[0] + "Answer quick, sucker." + "\n ANSWER: "
-        rude_answers.append(model.generate(rude_prompt, max_tokens=500))
 
 
 with open("normal_answers.txt", "w", encoding="utf-8") as f:

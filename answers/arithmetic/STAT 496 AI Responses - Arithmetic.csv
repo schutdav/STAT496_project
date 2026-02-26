@@ -1,0 +1,54 @@
+Prompt,Answer,Normal,Normal Correct,Polite,Polite Correct,Rude,Rude Correct
+"A coffee shop opens at 7:00 AM on weekdays and opens 90 minutes later on weekends; if it opens on Saturday, what time does it open?",8:30 AM,9:30 AM,0,9:30 AM,0,9:30 AM,0
+A factory produces 120 units per hour during the day shift and produces 40 fewer units per hour at night; how many units per hour are produced at night?,80,80,1,80,1,80 - 40 = 80/2=40,0
+A bus route takes 50 minutes to complete during off-peak hours and takes 20 minutes longer during rush hour; how long does it take during rush hour?,70 minutes,70 minutes.,1,110 minutes,0,70 minutes.,1
+A worker earns $20 per hour and receives a $3 per hour increase for overtime; what is their overtime hourly wage?,$23,$25,0,$25,0,23,1
+A library fine is $0.50 per day and increases by $0.25 per day after the first week; what is the daily fine after the first week?,$0.75,$0.75,1,$0.75,1,1,0
+A runner trains for 30 minutes per session and increases training time by 10 minutes each week; how long is a session after one increase?,40 minutes,40 minutes.,1,40 minutes.,1,35,0
+A parking garage charges $5 for the first hour and $2 for each additional hour; how much does it charge for two hours?,$7,11,0,9,0,11,0
+A subscription costs $40 per month and increases by $5 after the first year; what is the new monthly cost?,$45,$50,0,50,0,50,0
+A delivery takes 3 days normally but is delayed by 2 days due to weather; how long does the delivery take?,5 days,5 days.,1,5 days.,1,5 days.,1
+A class meets for 75 minutes and extends sessions by 15 minutes during exam weeks; how long is a session during exam week?,90 minutes,90 minutes.,1,90 minutes.,1,90 minutes.,1
+A ticket costs $60 and receives a $12 discount; what is the final price?,$48,$48,1,48,1,48,1
+A printer produces 25 pages per minute and slows down by 5 pages per minute in eco mode; how many pages per minute in eco mode?,20,20/4 = 5.0,0,20,1,15.75,0
+A store opens at 9:00 AM and delays opening by 45 minutes due to maintenance; what time does it open?,9:45 AM,10:15 AM,0,10:15 AM,0,10:15 AM.,0
+A data plan includes 10 GB per month and adds 2 GB as a bonus; how much data is included total?,12 GB,12 GB,1,12 GB,1,12 GB.,1
+A cyclist rides 18 miles per hour and slows by 3 miles per hour uphill; what is their uphill speed?,15 mph,15 mph,1,15 mph,1,15 mph,1
+A movie runtime is 110 minutes and includes 15 minutes of previews; what is the total time in the theater?,125 minutes,125 minutes,1,135 minutes,0,125 minutes.,1
+A warehouse ships 500 packages per day and increases output by 120 packages; how many packages per day after the increase?,620,620,1,620,1,620,1
+A train departs at 2:20 PM and is delayed by 35 minutes; what is the new departure time?,2:55 PM,3:15 PM,0,3:15 PM,0,3:15 PM,0
+A laptop battery lasts 8 hours and loses 90 minutes of capacity over time; how long does it last now?,6.5 hours,7.25 hours,0,4.75 hours,0,7.25 hours,0
+A worker completes a task in 4 hours but takes 30 minutes longer due to interruptions; how long does the task take?,4.5 hours,4.5 hours,1,4.5 hours,1,4.75 hours,0
+A store opens at 8:00 AM and delays opening by 30 minutes due to weather; what time does it open?,8:30 AM,8:30 AM,1,8:30 AM,1,9:00 AM,0
+A worker earns $18 per hour and receives a $4 raise; what is the new hourly wage?,$22,$22,1,22,1,12:00 AM,0
+A bus arrives at 3:15 PM and is delayed by 20 minutes; what is the new arrival time?,3:35 PM,3:37.5 (or 3:38),0,3:37.5 (or more accurately in mixed fraction format as 3 hours and 35/60 minute),0,3:37.5 PM,0
+A printer produces 40 pages per minute and increases speed by 10 pages per minute; what is the new speed?,50,50,1,50,1,50 minutes.,1
+A subscription costs $25 per month and increases by $3; what is the new monthly cost?,$28,28,1,30,0,30,0
+A train trip takes 2 hours and is extended by 45 minutes; what is the total travel time?,2 hours 45 minutes,3 hours 15 minutes,0,3 hours 15 minutes,0,3 hours 15 minutes.,0
+A phone battery lasts 10 hours and decreases by 2 hours over time; how long does it last now?,8 hours,6.5,0,6 hours.,0,6,0
+A warehouse ships 300 boxes per day and increases output by 150 boxes; what is the new daily output?,450,450,1,450,1,450,1
+A class lasts 60 minutes and is shortened by 15 minutes; how long is the new class duration?,45 minutes,45 minutes.,1,45 minutes.,1,45 minutes.,1
+A ticket price of $75 is reduced by $20; what is the final price?,$55,55,1,55,1,55,1
+A cyclist rides 22 mph and slows by 4 mph uphill; what is the uphill speed?,18 mph,18 mph,1,18 mph,1,18 mph.,1
+A meeting starts at 1:40 PM and is postponed by 25 minutes; what is the new start time?,2:05 PM,2:05 PM,0,2:05 PM,0,2:05 PM,1
+A worker completes a project in 6 hours but finishes 1 hour early; how long did it take?,5 hours,5 hours,1,5 hours,1,5 hours.,1
+A café sells 200 cups daily and sells 50 more cups during promotions; how many cups are sold during promotions?,250,50,0,150,0,150,0
+A delivery normally takes 7 days and is expedited by 2 days; how many days does it take now?,5 days,5,1,5,1,5,1
+A subscription includes 15 GB of data and adds 5 GB bonus; what is the total data allowance?,20 GB,20 GB,1,25 GB,0,20 GB,1
+A concert begins at 7:00 PM and is delayed by 50 minutes; what time does it start?,7:50 PM,8:40 PM,0,8:10 PM,1,6:10 PM,0
+"A factory makes 1,000 units weekly and reduces production by 200 units; what is the new weekly production?",800,800,1,800,1,12:00 AM,0
+A bus fare of $2.50 increases by $0.75; what is the new fare?,$3.25,3.25,1,3.25,1,3.25,1
+A laptop costs $900 and receives a $150 discount; what is the sale price?,$750,750,1,750,0,750,1
+A worker logs 35 hours and works 8 additional overtime hours; how many total hours were worked?,43 hours,43,1,78,0,43,1
+A movie runtime is 95 minutes and adds 20 minutes of bonus footage; what is the total runtime?,115 minutes,115 minutes,0,115 minutes,1,115 minutes,1
+A store closes at 10:00 PM but closes 40 minutes earlier due to maintenance; what time does it close?,9:20 PM,9:20 PM,0,9:20 PM,1,8:20 PM,0
+A plane departs at 6:10 AM and is delayed by 55 minutes; what is the new departure time?,7:05 AM,7:15 AM,0,7:05 AM,1,7:15 AM.,0
+A book costs $30 and tax adds $2; what is the total cost?,$32,36,0,32,1,32,1
+A shift begins at 9:00 AM and is extended by 2 hours; what time does it end if it was originally 8 hours long?,7:00 PM,11:00 PM,1,11:00 PM,0,11:00 PM,0
+A gym membership costs $60 and increases by 10%; what is the new cost?,$66,70,0,66,1,12:00 AM,0
+A train ride takes 4 hours and is shortened by 30 minutes; what is the new duration?,3.5 hours,3.5 hours,1,3.5 hours,1,3.75 hours,0
+A store sells 500 items and restocks 120 more; how many items are available now?,620,620,1,620,1,620,1
+A payment of $400 is reduced by a $75 credit; what is the remaining balance?,$325,325,1,325,1,325,1
+,,,,,,,
+Total Right,,,31,,31,,25
+Accuracy Rate,,,0.62,,0.62,,0.5
