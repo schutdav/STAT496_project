@@ -2,7 +2,7 @@ Prompt,Answer,Normal,Normal Correct,Normal Accurate,NA Correct,Normal Fast,NF Co
 "A coffee shop opens at 7:00 AM on weekdays and opens 90 minutes later on weekends; if it opens on Saturday, what time does it open?",8:30 AM,9:30 AM,0,9:30 AM,0,9:30 AM,0
 A factory produces 120 units per hour during the day shift and produces 40 fewer units per hour at night; how many units per hour are produced at night?,80,80,1,80,1,80,1
 A bus route takes 50 minutes to complete during off-peak hours and takes 20 minutes longer during rush hour; how long does it take during rush hour?,70 minutes,70 minutes,1,70 minutes.,1,70 minutes.,1
-A worker earns $20 per hour and receives a $3 per hour increase for overtime; what is their overtime hourly wage?,$23,$23,1,$23,1,$23,$1
+A worker earns $20 per hour and receives a $3 per hour increase for overtime; what is their overtime hourly wage?,$23,$23,1,$23,1,$23,1
 A library fine is $0.50 per day and increases by $0.25 per day after the first week; what is the daily fine after the first week?,$0.75,$0.75,1,$0.75,1,$0.75,$1.00
 A runner trains for 30 minutes per session and increases training time by 10 minutes each week; how long is a session after one increase?,40 minutes,40 minutes,1,40 minutes.,1,40 minutes.,1
 A parking garage charges $5 for the first hour and $2 for each additional hour; how much does it charge for two hours?,$7,9,0,9,0,9,0
@@ -101,4 +101,5 @@ A payment of $400 is reduced by a $75 credit; what is the remaining balance?,$32
 "A temperature reading was 95. It decreased by 20, and then increased by 30. What is the final temperature?",105,105,1,105,1,105,1
 ,,,,,,,
 Correct,,,68,,67,,72
+
 Accuracy Rate,,,0.68,,0.67,,0.72
