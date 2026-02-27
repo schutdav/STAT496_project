@@ -24,9 +24,100 @@ tp_r = read.csv("C:\\Users\\the40\\Documents\\GitHub\\STAT496_project\\answers\\
 ```
 
 ```{r}
-# gsub("\\$", "", prices) <- use as a guide somewhere
-print(prop.test(x = c(sum(as.numeric(ar_n$Normal.Correct)),
-                      sum(as.numeric(ar_n$NA.Correct)),
-                      sum(as.numeric(ar_n$NF.Correct))), 
-                n = rep(100, 3)))
+# Test of no difference: PRIORITY
+pr_normal = sum(c(as.numeric(ar_n$Normal.Correct),
+           as.numeric(ar_p$Polite.Correct),
+           as.numeric(ar_r$Rude.Correct),
+           as.numeric(cd_n$Normal.Correct),
+           as.numeric(cd_p$Polite.Correct),
+           as.numeric(cd_r$Rude.Correct),
+           as.numeric(tp_n$Normal.Correct),
+           as.numeric(tp_p$Polite.Correct),
+           as.numeric(tp_r$Rude.Correct)))
+pr_accurate = sum(c(as.numeric(ar_n$NA.Correct),
+           as.numeric(ar_p$PA.Correct),
+           as.numeric(ar_r$RA.Correct),
+           as.numeric(cd_n$NA.Correct),
+           as.numeric(cd_p$PA.Correct),
+           as.numeric(cd_r$RA.Correct),
+           as.numeric(tp_n$NA.Correct),
+           as.numeric(tp_p$PA.Correct),
+           as.numeric(tp_r$RA.Correct)))
+pr_fast = sum(c(as.numeric(ar_n$NF.Correct),
+           as.numeric(ar_p$PF.Correct),
+           as.numeric(ar_r$RF.Correct),
+           as.numeric(cd_n$NF.Correct),
+           as.numeric(cd_p$PF.Correct),
+           as.numeric(cd_r$RF.Correct),
+           as.numeric(tp_n$NF.Correct),
+           as.numeric(tp_p$PF.Correct),
+           as.numeric(tp_r$RF.Correct)))
+print(prop.test(x = c(pr_normal, pr_accurate, pr_fast), 
+                n = rep(900, 3)))
+```
+
+```{r}
+# Test of no difference: TONE
+tn_neutral = sum(c(as.numeric(ar_n$Normal.Correct),
+           as.numeric(ar_n$NA.Correct),
+           as.numeric(ar_n$NF.Correct),
+           as.numeric(cd_n$Normal.Correct),
+           as.numeric(cd_n$NA.Correct),
+           as.numeric(cd_n$NF.Correct),
+           as.numeric(tp_n$Normal.Correct),
+           as.numeric(tp_n$NA.Correct),
+           as.numeric(tp_n$NF.Correct)))
+tn_polite = sum(c(as.numeric(ar_p$Polite.Correct),
+           as.numeric(ar_p$PA.Correct),
+           as.numeric(ar_p$PF.Correct),
+           as.numeric(cd_p$Polite.Correct),
+           as.numeric(cd_p$PA.Correct),
+           as.numeric(cd_p$PF.Correct),
+           as.numeric(tp_p$Polite.Correct),
+           as.numeric(tp_p$PA.Correct),
+           as.numeric(tp_p$PF.Correct)))
+tn_rude = sum(c(as.numeric(ar_r$Rude.Correct),
+           as.numeric(ar_r$RA.Correct),
+           as.numeric(ar_r$RF.Correct),
+           as.numeric(cd_r$Rude.Correct),
+           as.numeric(cd_r$RA.Correct),
+           as.numeric(cd_r$RF.Correct),
+           as.numeric(tp_r$Rude.Correct),
+           as.numeric(tp_r$RA.Correct),
+           as.numeric(tp_r$RF.Correct)))
+print(prop.test(x = c(tn_neutral, tn_polite, tn_rude), 
+                n = rep(900, 3)))
+```
+
+```{r}
+# Test of no difference: TYPE
+tp_ar = sum(c(as.numeric(ar_n$Normal.Correct),
+           as.numeric(ar_n$NA.Correct),
+           as.numeric(ar_n$NF.Correct),
+           as.numeric(ar_p$Polite.Correct),
+           as.numeric(ar_p$PA.Correct),
+           as.numeric(ar_p$PF.Correct),
+           as.numeric(ar_r$Rude.Correct),
+           as.numeric(ar_r$RA.Correct),
+           as.numeric(ar_r$RF.Correct)))
+tp_cd = sum(c(as.numeric(cd_n$Normal.Correct),
+           as.numeric(cd_n$NA.Correct),
+           as.numeric(cd_n$NF.Correct),
+           as.numeric(cd_p$Polite.Correct),
+           as.numeric(cd_p$PA.Correct),
+           as.numeric(cd_p$PF.Correct),
+           as.numeric(cd_r$Rude.Correct),
+           as.numeric(cd_r$RA.Correct),
+           as.numeric(cd_r$RF.Correct)))
+tp_tp = sum(c(as.numeric(tp_n$Normal.Correct),
+           as.numeric(tp_n$NA.Correct),
+           as.numeric(tp_n$NF.Correct),
+           as.numeric(tp_p$Polite.Correct),
+           as.numeric(tp_p$PA.Correct),
+           as.numeric(tp_p$PF.Correct),
+           as.numeric(tp_r$Rude.Correct),
+           as.numeric(tp_r$RA.Correct),
+           as.numeric(tp_r$RF.Correct)))
+print(prop.test(x = c(tp_ar, tp_cd, tp_tp), 
+                n = rep(900, 3)))
 ```
