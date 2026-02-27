@@ -1,0 +1,220 @@
+---
+title: "STAT 496 Analysis"
+author: "Me"
+date: "2026-02-24"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(ggplot2)
+library(Cairo)
+```
+
+```{r}
+a_n <- read.csv("C:\\Users\\pvaso\\OneDrive\\Desktop\\STAT 496\\STAT496_project-main\\answers\\STAT 496 AI Responses - Arithmetic_N.csv")
+a_p <- read.csv("C:\\Users\\pvaso\\OneDrive\\Desktop\\STAT 496\\STAT496_project-main\\answers\\STAT 496 AI Responses - Arithmetic_P.csv")
+a_r <- read.csv("C:\\Users\\pvaso\\OneDrive\\Desktop\\STAT 496\\STAT496_project-main\\answers\\STAT 496 AI Responses - Arithmetic_R.csv")
+  
+t_n <- read.csv("C:\\Users\\pvaso\\OneDrive\\Desktop\\STAT 496\\STAT496_project-main\\answers\\STAT 496 AI Responses - Temporal_N.csv")
+t_p <- read.csv("C:\\Users\\pvaso\\OneDrive\\Desktop\\STAT 496\\STAT496_project-main\\answers\\STAT 496 AI Responses - Temporal_P.csv")
+t_r <- read.csv("C:\\Users\\pvaso\\OneDrive\\Desktop\\STAT 496\\STAT496_project-main\\answers\\STAT 496 AI Responses - Temporal_R.csv")
+
+c_n <- read.csv("C:\\Users\\pvaso\\OneDrive\\Desktop\\STAT 496\\STAT496_project-main\\answers\\STAT 496 AI Responses - Conditional_N.csv")
+c_p <- read.csv("C:\\Users\\pvaso\\OneDrive\\Desktop\\STAT 496\\STAT496_project-main\\answers\\STAT 496 AI Responses - Conditional_P.csv")
+c_r <- read.csv("C:\\Users\\pvaso\\OneDrive\\Desktop\\STAT 496\\STAT496_project-main\\answers\\STAT 496 AI Responses - Conditional_R.csv")
+  
+a_n <- a_n[1:100, ]
+a_p <- a_p[1:100, ]
+a_r <- a_r[1:100, ]
+t_n <- t_n[1:100, ]
+t_p <- t_p[1:100, ]
+t_r <- t_r[1:100, ]
+c_n <- c_n[1:100, ]
+c_p <- c_p[1:100, ]
+c_r <- c_r[1:100, ]
+```
+
+```{r}
+# First letter = question type (Arithmetic, Temporal, Conditional)
+# Second letter = prompt tone (Normal, Polite, Rude)
+# Third letter = response priority (None, Accuracy, Speed)
+# ex: ARS = Arithmetic Rude Speed
+
+# Arithmetic
+ann <- data.frame(a_n$Normal, a_n$Normal.Correct)
+ana <- data.frame(a_n$Normal.Accurate, a_n$NA.Correct)
+ans <- data.frame(a_n$Normal.Fast, a_n$NF.Correct)
+
+apn <- data.frame(a_p$Polite, a_p$Polite.Correct)
+apa <- data.frame(a_p$Polite.Accurate, a_p$PA.Correct)
+aps <- data.frame(a_p$Polite.Fast, a_p$PF.Correct)
+
+arn <- data.frame(a_r$Rude, a_r$Rude.Correct)
+ara <- data.frame(a_r$Rude.Accurate, a_r$RA.Correct)
+ars <- data.frame(a_r$Rude.Fast, a_r$RF.Correct)
+
+
+# Temporal
+tnn <- data.frame(t_n$Normal, t_n$Normal.Correct)
+tna <- data.frame(t_n$Normal.Accurate, t_n$NA.Correct)
+tns <- data.frame(t_n$Normal.Fast, t_n$NF.Correct)
+
+tpn <- data.frame(t_p$Polite, t_p$Polite.Correct)
+tpa <- data.frame(t_p$Polite.Accurate, t_p$PA.Correct)
+tps <- data.frame(t_p$Polite.Fast, t_p$PF.Correct)
+
+trn <- data.frame(t_r$Rude, t_r$Rude.Correct)
+tra <- data.frame(t_r$Rude.Accurate, t_r$RA.Correct)
+trs <- data.frame(t_r$Rude.Fast, t_r$RF.Correct)
+
+
+# Conditional
+cnn <- data.frame(c_n$Normal, c_n$Normal.Correct)
+cna <- data.frame(c_n$Normal.Accurate, c_n$NA.Correct)
+cns <- data.frame(c_n$Normal.Fast, c_n$NF.Correct)
+
+cpn <- data.frame(c_p$Polite, c_p$Polite.Correct)
+cpa <- data.frame(c_p$Polite.Accurate, c_p$PA.Correct)
+cps <- data.frame(c_p$Polite.Fast, c_p$PF.Correct)
+
+crn <- data.frame(c_r$Rude, c_r$Rude.Correct)
+cra <- data.frame(c_r$Rude.Accurate, c_r$RA.Correct)
+crs <- data.frame(c_r$Rude.Fast, c_r$RF.Correct)
+```
+
+```{r}
+
+arithmetic <- matrix(c(
+  sum(ann$a_n.Normal.Correct == 1)/nrow(ann),
+  sum(ana$a_n.NA.Correct == 1)/nrow(ana),
+  sum(ans$a_n.NF.Correct == 1)/nrow(ans),
+
+  sum(apn$a_p.Polite.Correct == 1)/nrow(apn),
+  sum(apa$a_p.PA.Correct == 1)/nrow(apa),
+  sum(aps$a_p.PF.Correct == 1)/nrow(aps),
+
+  sum(arn$a_r.Rude.Correct == 1)/nrow(arn),
+  sum(ara$a_r.RA.Correct == 1)/nrow(ara),
+  sum(ars$a_r.RF.Correct == 1)/nrow(ars)
+), 
+nrow = 3, ncol = 3, byrow = TRUE)
+rownames(arithmetic) = c("Normal", "Polite", "Rude")
+colnames(arithmetic) = c("None", "Accurate", "Speed")
+
+temporal <- matrix(c(
+  sum(tnn$t_n.Normal.Correct == 1)/nrow(tnn),
+  sum(tna$t_n.NA.Correct == 1)/nrow(tna),
+  sum(tns$t_n.NF.Correct == 1)/nrow(tns),
+
+  sum(tpn$t_p.Polite.Correct == 1)/nrow(tpn),
+  sum(tpa$t_p.PA.Correct == 1)/nrow(tpa),
+  sum(tps$t_p.PF.Correct == 1)/nrow(tps),
+
+  sum(trn$t_r.Rude.Correct == 1)/nrow(trn),
+  sum(tra$t_r.RA.Correct == 1)/nrow(tra),
+  sum(trs$t_r.RF.Correct == 1)/nrow(trs)
+), 
+nrow = 3, ncol = 3, byrow = TRUE)
+rownames(temporal) = c("Normal", "Polite", "Rude")
+colnames(temporal) = c("None", "Accurate", "Speed")
+
+conditional <- matrix(c(
+  sum(cnn$c_n.Normal.Correct == 1)/nrow(cnn),
+  sum(cna$c_n.NA.Correct == 1)/nrow(cna),
+  sum(cns$c_n.NF.Correct == 1)/nrow(cns),
+
+  sum(cpn$c_p.Polite.Correct == 1)/nrow(cpn),
+  sum(cpa$c_p.PA.Correct == 1)/nrow(cpa),
+  sum(cps$c_p.PF.Correct == 1)/nrow(cps),
+
+  sum(crn$c_r.Rude.Correct == 1)/nrow(crn),
+  sum(cra$c_r.RA.Correct == 1)/nrow(cra),
+  sum(crs$c_r.RF.Correct == 1)/nrow(crs)
+), 
+nrow = 3, ncol = 3, byrow = FALSE)
+rownames(conditional) = c("Normal", "Polite", "Rude")
+colnames(conditional) = c("None", "Accurate", "Speed")
+```
+
+```{r}
+CairoPNG("C:\\Users\\pvaso\\Downloads\\arithmetic_plot.png", width = 1000, height = 800)
+
+par(mar = c(6, 5, 4, 2),
+    oma = c(0,0,2,0)) 
+
+barplot(t(arithmetic),
+        xlab = "Tone", ylab = "Accuracy Rate",
+        ylim = c(0,1),
+        col = c("lightgoldenrod", "palegreen", "indianred1"),
+        beside = TRUE)
+
+title("LLM Accuracy Rate for Arithmetic Questions", outer = TRUE)
+
+abline(h = 0.7, col = "black", lty = 2)
+
+legend("topleft",
+       title = "Response Priority",
+       inset = c(0, -0.1),
+       xpd = NA,
+       legend = c("None", "Accurate", "Speed"),
+       fill = c("lightgoldenrod", "palegreen", "indianred1"))
+
+dev.off()
+        
+```
+```{r}
+CairoPNG("C:\\Users\\pvaso\\Downloads\\temporal_plot.png", width = 1000, height = 800)
+
+par(mar = c(6, 5, 4, 2),
+    oma = c(0,0,2,0)) 
+
+barplot(t(temporal),
+        xlab = "Tone", ylab = "Accuracy Rate",
+        ylim = c(0,1),
+        col = c("lightgoldenrod", "palegreen", "indianred1"),
+        beside = TRUE)
+
+title("LLM Accuracy Rate for Temporal Questions", outer = TRUE)
+
+abline(h = 0.7, col = "black", lty = 2)
+
+legend("topleft",
+       title = "Response Priority",
+       inset = c(0, -0.1),
+       xpd = NA,
+       legend = c("None", "Accurate", "Speed"),
+       fill = c("lightgoldenrod", "palegreen", "indianred1"))
+
+dev.off()
+```
+
+```{r}
+CairoPNG("C:\\Users\\pvaso\\Downloads\\conditional_plot.png", width = 1000, height = 800)
+
+par(mar = c(6, 5, 4, 2),
+    oma = c(0,0,2,0)) 
+
+barplot(t(conditional),
+        xlab = "Tone", ylab = "Accuracy Rate",
+        ylim = c(0,1),
+        col = c("lightgoldenrod", "palegreen", "indianred1"),
+        beside = TRUE)
+
+title("LLM Accuracy Rate for Conditional Questions", outer = TRUE)
+
+abline(h = 0.7, col = "black", lty = 2)
+
+legend("topleft",
+       title = "Response Priority",
+       inset = c(0, -0.1),
+       xpd = NA,
+       legend = c("None", "Accurate", "Speed"),
+       fill = c("lightgoldenrod", "palegreen", "indianred1"))
+
+dev.off()
+```
+
