@@ -1,0 +1,32 @@
+---
+title: "496 tests"
+author: "David Schutt (schutdav)"
+date: "2026-02-26"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+ar_n = read.csv("C:\\Users\\the40\\Documents\\GitHub\\STAT496_project\\answers\\arithmetic\\STAT 496 AI Responses - Arithmetic_N.csv")[1:100,]
+ar_p = read.csv("C:\\Users\\the40\\Documents\\GitHub\\STAT496_project\\answers\\arithmetic\\STAT 496 AI Responses - Arithmetic_P.csv")[1:100,]
+ar_r = read.csv("C:\\Users\\the40\\Documents\\GitHub\\STAT496_project\\answers\\arithmetic\\STAT 496 AI Responses - Arithmetic_R.csv")[1:100,]
+
+cd_n = read.csv("C:\\Users\\the40\\Documents\\GitHub\\STAT496_project\\answers\\conditional\\STAT 496 AI Responses - Conditional_N.csv")[1:100,]
+cd_p = read.csv("C:\\Users\\the40\\Documents\\GitHub\\STAT496_project\\answers\\conditional\\STAT 496 AI Responses - Conditional_P.csv")[1:100,]
+cd_r = read.csv("C:\\Users\\the40\\Documents\\GitHub\\STAT496_project\\answers\\conditional\\STAT 496 AI Responses - Conditional_R.csv")[1:100,]
+
+tp_n = read.csv("C:\\Users\\the40\\Documents\\GitHub\\STAT496_project\\answers\\temporal\\STAT 496 AI Responses - Temporal_N.csv")[1:100,]
+tp_p = read.csv("C:\\Users\\the40\\Documents\\GitHub\\STAT496_project\\answers\\temporal\\STAT 496 AI Responses - Temporal_P.csv")[1:100,]
+tp_r = read.csv("C:\\Users\\the40\\Documents\\GitHub\\STAT496_project\\answers\\temporal\\STAT 496 AI Responses - Temporal_R.csv")[1:100,]
+```
+
+```{r}
+# gsub("\\$", "", prices) <- use as a guide somewhere
+print(prop.test(x = c(sum(as.numeric(ar_n$Normal.Correct)),
+                      sum(as.numeric(ar_n$NA.Correct)),
+                      sum(as.numeric(ar_n$NF.Correct))), 
+                n = rep(100, 3)))
+```
